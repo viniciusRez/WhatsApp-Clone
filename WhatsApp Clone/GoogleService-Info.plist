@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>543145180850-atohk0tb9heajqmiiu72mnbmkffscrpe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.543145180850-atohk0tb9heajqmiiu72mnbmkffscrpe</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAGd785fhGF3rI50nAnuLiR3oQXuBOPiZg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>543145180850</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Vinicius.WhatsApp-Clone</string>
+	<key>PROJECT_ID</key>
+	<string>clonewhatsapp-3298e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clonewhatsapp-3298e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:543145180850:ios:5f7ecc2a2dd7398bd893ab</string>
+</dict>
+</plist>

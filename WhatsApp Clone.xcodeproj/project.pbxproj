@@ -9,23 +9,52 @@
 /* Begin PBXBuildFile section */
 		A13B90C229784A960059073C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90C129784A960059073C /* AppDelegate.swift */; };
 		A13B90C429784A960059073C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90C329784A960059073C /* SceneDelegate.swift */; };
-		A13B90C629784A960059073C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90C529784A960059073C /* ViewController.swift */; };
 		A13B90C929784A960059073C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13B90C729784A960059073C /* Main.storyboard */; };
-		A13B90CC29784A960059073C /* WhatsApp_Clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A13B90CA29784A960059073C /* WhatsApp_Clone.xcdatamodeld */; };
 		A13B90CE29784A960059073C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13B90CD29784A960059073C /* Assets.xcassets */; };
 		A13B90D129784A960059073C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13B90CF29784A960059073C /* LaunchScreen.storyboard */; };
+		A13B90D929784AC10059073C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A13B90D829784AC10059073C /* GoogleService-Info.plist */; };
+		A13B90DC29784B510059073C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A13B90DB29784B510059073C /* FirebaseAnalytics */; };
+		A13B90DE29784B510059073C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A13B90DD29784B510059073C /* FirebaseAuth */; };
+		A13B90E029784B510059073C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A13B90DF29784B510059073C /* FirebaseFirestore */; };
+		A13B90E229784B510059073C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A13B90E129784B510059073C /* FirebaseStorage */; };
+		A13B90E529784D580059073C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90E429784D580059073C /* LoginViewController.swift */; };
+		A13B90E729784D710059073C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90E629784D710059073C /* RegisterViewController.swift */; };
+		A13B90EB29784E120059073C /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90E929784E120059073C /* RegisterViewModel.swift */; };
+		A13B90EC29784E120059073C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90EA29784E120059073C /* LoginViewModel.swift */; };
+		A13B90EF29784E480059073C /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90EE29784E480059073C /* AlertModel.swift */; };
+		A1AC44052979567B00122C93 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC44042979567B00122C93 /* AjustesViewController.swift */; };
+		A1AC44072979569000122C93 /* AjustesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC44062979569000122C93 /* AjustesViewModel.swift */; };
+		A1AC440A29795CD800122C93 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A1AC440929795CD800122C93 /* Kingfisher */; };
+		A1AC440C2979636400122C93 /* ContatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC440B2979636400122C93 /* ContatosViewController.swift */; };
+		A1AC440E2979636E00122C93 /* ContatosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC440D2979636E00122C93 /* ContatosViewModel.swift */; };
+		A1AC44102979655B00122C93 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC440F2979655B00122C93 /* MyTableViewCell.swift */; };
+		A1AC441229796E1100122C93 /* NovoContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC441129796E1100122C93 /* NovoContatoViewController.swift */; };
+		A1AC441429796EE700122C93 /* NovoContatoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC441329796EE700122C93 /* NovoContatoViewModel.swift */; };
+		A1AC44162979752800122C93 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC44152979752800122C93 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A13B90BE29784A960059073C /* WhatsApp Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsApp Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13B90C129784A960059073C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A13B90C329784A960059073C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A13B90C529784A960059073C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A13B90C829784A960059073C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A13B90CB29784A960059073C /* WhatsApp_Clone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhatsApp_Clone.xcdatamodel; sourceTree = "<group>"; };
 		A13B90CD29784A960059073C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13B90D029784A960059073C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A13B90D229784A960059073C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13B90D829784AC10059073C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A13B90E429784D580059073C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A13B90E629784D710059073C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A13B90E929784E120059073C /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		A13B90EA29784E120059073C /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A13B90EE29784E480059073C /* AlertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		A1AC44042979567B00122C93 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		A1AC44062979569000122C93 /* AjustesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewModel.swift; sourceTree = "<group>"; };
+		A1AC440B2979636400122C93 /* ContatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewController.swift; sourceTree = "<group>"; };
+		A1AC440D2979636E00122C93 /* ContatosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewModel.swift; sourceTree = "<group>"; };
+		A1AC440F2979655B00122C93 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		A1AC441129796E1100122C93 /* NovoContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoContatoViewController.swift; sourceTree = "<group>"; };
+		A1AC441329796EE700122C93 /* NovoContatoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoContatoViewModel.swift; sourceTree = "<group>"; };
+		A1AC44152979752800122C93 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13B90DC29784B510059073C /* FirebaseAnalytics in Frameworks */,
+				A13B90E229784B510059073C /* FirebaseStorage in Frameworks */,
+				A13B90DE29784B510059073C /* FirebaseAuth in Frameworks */,
+				A13B90E029784B510059073C /* FirebaseFirestore in Frameworks */,
+				A1AC440A29795CD800122C93 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +92,52 @@
 		A13B90C029784A960059073C /* WhatsApp Clone */ = {
 			isa = PBXGroup;
 			children = (
+				A13B90ED29784E3E0059073C /* Models */,
+				A13B90E829784DF80059073C /* ViewModels */,
+				A13B90E329784D350059073C /* ViewControllers */,
 				A13B90C129784A960059073C /* AppDelegate.swift */,
 				A13B90C329784A960059073C /* SceneDelegate.swift */,
-				A13B90C529784A960059073C /* ViewController.swift */,
 				A13B90C729784A960059073C /* Main.storyboard */,
 				A13B90CD29784A960059073C /* Assets.xcassets */,
 				A13B90CF29784A960059073C /* LaunchScreen.storyboard */,
 				A13B90D229784A960059073C /* Info.plist */,
-				A13B90CA29784A960059073C /* WhatsApp_Clone.xcdatamodeld */,
+				A13B90D829784AC10059073C /* GoogleService-Info.plist */,
 			);
 			path = "WhatsApp Clone";
+			sourceTree = "<group>";
+		};
+		A13B90E329784D350059073C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A13B90E429784D580059073C /* LoginViewController.swift */,
+				A13B90E629784D710059073C /* RegisterViewController.swift */,
+				A1AC44042979567B00122C93 /* AjustesViewController.swift */,
+				A1AC440B2979636400122C93 /* ContatosViewController.swift */,
+				A1AC441129796E1100122C93 /* NovoContatoViewController.swift */,
+				A1AC44152979752800122C93 /* ChatViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A13B90E829784DF80059073C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A13B90EA29784E120059073C /* LoginViewModel.swift */,
+				A13B90E929784E120059073C /* RegisterViewModel.swift */,
+				A1AC44062979569000122C93 /* AjustesViewModel.swift */,
+				A1AC440D2979636E00122C93 /* ContatosViewModel.swift */,
+				A1AC441329796EE700122C93 /* NovoContatoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A13B90ED29784E3E0059073C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A13B90EE29784E480059073C /* AlertModel.swift */,
+				A1AC440F2979655B00122C93 /* MyTableViewCell.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +156,13 @@
 			dependencies = (
 			);
 			name = "WhatsApp Clone";
+			packageProductDependencies = (
+				A13B90DB29784B510059073C /* FirebaseAnalytics */,
+				A13B90DD29784B510059073C /* FirebaseAuth */,
+				A13B90DF29784B510059073C /* FirebaseFirestore */,
+				A13B90E129784B510059073C /* FirebaseStorage */,
+				A1AC440929795CD800122C93 /* Kingfisher */,
+			);
 			productName = "WhatsApp Clone";
 			productReference = A13B90BE29784A960059073C /* WhatsApp Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +191,10 @@
 				Base,
 			);
 			mainGroup = A13B90B529784A960059073C;
+			packageReferences = (
+				A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A1AC440829795CD800122C93 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A13B90BF29784A960059073C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13B90D929784AC10059073C /* GoogleService-Info.plist in Resources */,
 				A13B90D129784A960059073C /* LaunchScreen.storyboard in Resources */,
 				A13B90CE29784A960059073C /* Assets.xcassets in Resources */,
 				A13B90C929784A960059073C /* Main.storyboard in Resources */,
@@ -141,10 +223,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A13B90C629784A960059073C /* ViewController.swift in Sources */,
+				A13B90E529784D580059073C /* LoginViewController.swift in Sources */,
+				A1AC441229796E1100122C93 /* NovoContatoViewController.swift in Sources */,
+				A13B90EB29784E120059073C /* RegisterViewModel.swift in Sources */,
+				A1AC440E2979636E00122C93 /* ContatosViewModel.swift in Sources */,
+				A13B90EC29784E120059073C /* LoginViewModel.swift in Sources */,
 				A13B90C229784A960059073C /* AppDelegate.swift in Sources */,
+				A1AC44102979655B00122C93 /* MyTableViewCell.swift in Sources */,
+				A13B90EF29784E480059073C /* AlertModel.swift in Sources */,
+				A1AC440C2979636400122C93 /* ContatosViewController.swift in Sources */,
+				A1AC441429796EE700122C93 /* NovoContatoViewModel.swift in Sources */,
+				A1AC44052979567B00122C93 /* AjustesViewController.swift in Sources */,
 				A13B90C429784A960059073C /* SceneDelegate.swift in Sources */,
-				A13B90CC29784A960059073C /* WhatsApp_Clone.xcdatamodeld in Sources */,
+				A13B90E729784D710059073C /* RegisterViewController.swift in Sources */,
+				A1AC44162979752800122C93 /* ChatViewController.swift in Sources */,
+				A1AC44072979569000122C93 /* AjustesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,18 +454,52 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		A13B90CA29784A960059073C /* WhatsApp_Clone.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A13B90CB29784A960059073C /* WhatsApp_Clone.xcdatamodel */,
-			);
-			currentVersion = A13B90CB29784A960059073C /* WhatsApp_Clone.xcdatamodel */;
-			path = WhatsApp_Clone.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
 		};
-/* End XCVersionGroup section */
+		A1AC440829795CD800122C93 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A13B90DB29784B510059073C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A13B90DD29784B510059073C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A13B90DF29784B510059073C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A13B90E129784B510059073C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A1AC440929795CD800122C93 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1AC440829795CD800122C93 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A13B90B629784A960059073C /* Project object */;
 }
