@@ -15,7 +15,7 @@ class NovoContatoViewModel{
     init(controller: UIViewController) {
         self.controller = controller
     }
-    func getContact(completion:@escaping([Dictionary<String,Any>]) -> Void){
+    func getContact(completion:@escaping([Dictionary<String,Any>]) -> Void) {
         let firestore = Firestore.firestore()
         
         var listOfContacts:[Dictionary<String,Any>] = []
@@ -31,23 +31,27 @@ class NovoContatoViewModel{
             }
     }
     
-    func addContact(email:String,completion:@escaping(AlertModel) -> Void){
-
+    func addContact(email:String,completion:@escaping(AlertModel) -> Void) {
+        var mensagem:String!
+        var titulo:String!
         self.getContact { result in
             for item in result {
                 if let emailItem = item["email"] as? String {
-                    if emailItem.contains(email){
+                    if emailItem == email {
                         self.insertContact(dados:item)
-                        completion(AlertModel(mensagem: "Novo Usuario Adicionado", titulo: "Sucesso"))
-                    }
-                    else{
-                        completion(AlertModel(mensagem: "Usuario não encontrado", titulo: "Fracasso"))
+                        mensagem = "Novo Usuario Adicionado"
+                        titulo = "Sucesso"
+                        completion(AlertModel(mensagem: mensagem, titulo: titulo))
+                    } else {
+                        mensagem = "Usuario não encontrado"
+                        titulo = "Fracasso"
                     }
                 }
             }
+            completion(AlertModel(mensagem: mensagem, titulo: titulo))
         }
     }
-    func insertContact(dados:Dictionary<String,Any>){
+    func insertContact(dados:Dictionary<String,Any>) {
         let auth = Auth.auth()
         let usuario = auth.currentUser?.uid
         let firestore = Firestore.firestore()

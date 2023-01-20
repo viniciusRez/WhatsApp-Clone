@@ -22,6 +22,10 @@
 		A13B90EB29784E120059073C /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90E929784E120059073C /* RegisterViewModel.swift */; };
 		A13B90EC29784E120059073C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90EA29784E120059073C /* LoginViewModel.swift */; };
 		A13B90EF29784E480059073C /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B90EE29784E480059073C /* AlertModel.swift */; };
+		A14B3C51297AE51B007380BA /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A14B3C50297AE51B007380BA /* IQKeyboardManagerSwift */; };
+		A1974703297AAC6A00182597 /* ConversasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1974702297AAC6A00182597 /* ConversasTableViewCell.swift */; };
+		A1974705297AAC9800182597 /* ConversasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1974704297AAC9800182597 /* ConversasViewController.swift */; };
+		A1974707297AACB500182597 /* ConversasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1974706297AACB500182597 /* ConversasViewModel.swift */; };
 		A1AC44052979567B00122C93 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC44042979567B00122C93 /* AjustesViewController.swift */; };
 		A1AC44072979569000122C93 /* AjustesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC44062979569000122C93 /* AjustesViewModel.swift */; };
 		A1AC440A29795CD800122C93 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A1AC440929795CD800122C93 /* Kingfisher */; };
@@ -31,6 +35,8 @@
 		A1AC441229796E1100122C93 /* NovoContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC441129796E1100122C93 /* NovoContatoViewController.swift */; };
 		A1AC441429796EE700122C93 /* NovoContatoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC441329796EE700122C93 /* NovoContatoViewModel.swift */; };
 		A1AC44162979752800122C93 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC44152979752800122C93 /* ChatViewController.swift */; };
+		A1AC441829797D6800122C93 /* MensagemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC441729797D6800122C93 /* MensagemTableViewCell.swift */; };
+		A1AC441A2979855000122C93 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC44192979855000122C93 /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +53,9 @@
 		A13B90E929784E120059073C /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		A13B90EA29784E120059073C /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A13B90EE29784E480059073C /* AlertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		A1974702297AAC6A00182597 /* ConversasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableViewCell.swift; sourceTree = "<group>"; };
+		A1974704297AAC9800182597 /* ConversasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasViewController.swift; sourceTree = "<group>"; };
+		A1974706297AACB500182597 /* ConversasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasViewModel.swift; sourceTree = "<group>"; };
 		A1AC44042979567B00122C93 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
 		A1AC44062979569000122C93 /* AjustesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewModel.swift; sourceTree = "<group>"; };
 		A1AC440B2979636400122C93 /* ContatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +64,8 @@
 		A1AC441129796E1100122C93 /* NovoContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoContatoViewController.swift; sourceTree = "<group>"; };
 		A1AC441329796EE700122C93 /* NovoContatoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoContatoViewModel.swift; sourceTree = "<group>"; };
 		A1AC44152979752800122C93 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A1AC441729797D6800122C93 /* MensagemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagemTableViewCell.swift; sourceTree = "<group>"; };
+		A1AC44192979855000122C93 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +78,7 @@
 				A13B90DE29784B510059073C /* FirebaseAuth in Frameworks */,
 				A13B90E029784B510059073C /* FirebaseFirestore in Frameworks */,
 				A1AC440A29795CD800122C93 /* Kingfisher in Frameworks */,
+				A14B3C51297AE51B007380BA /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +104,7 @@
 		A13B90C029784A960059073C /* WhatsApp Clone */ = {
 			isa = PBXGroup;
 			children = (
+				A1974701297AA70500182597 /* TableCell */,
 				A13B90ED29784E3E0059073C /* Models */,
 				A13B90E829784DF80059073C /* ViewModels */,
 				A13B90E329784D350059073C /* ViewControllers */,
@@ -115,6 +128,7 @@
 				A1AC440B2979636400122C93 /* ContatosViewController.swift */,
 				A1AC441129796E1100122C93 /* NovoContatoViewController.swift */,
 				A1AC44152979752800122C93 /* ChatViewController.swift */,
+				A1974704297AAC9800182597 /* ConversasViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -127,6 +141,8 @@
 				A1AC44062979569000122C93 /* AjustesViewModel.swift */,
 				A1AC440D2979636E00122C93 /* ContatosViewModel.swift */,
 				A1AC441329796EE700122C93 /* NovoContatoViewModel.swift */,
+				A1AC44192979855000122C93 /* ChatViewModel.swift */,
+				A1974706297AACB500182597 /* ConversasViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -135,9 +151,18 @@
 			isa = PBXGroup;
 			children = (
 				A13B90EE29784E480059073C /* AlertModel.swift */,
-				A1AC440F2979655B00122C93 /* MyTableViewCell.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A1974701297AA70500182597 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1AC441729797D6800122C93 /* MensagemTableViewCell.swift */,
+				A1AC440F2979655B00122C93 /* MyTableViewCell.swift */,
+				A1974702297AAC6A00182597 /* ConversasTableViewCell.swift */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +187,7 @@
 				A13B90DF29784B510059073C /* FirebaseFirestore */,
 				A13B90E129784B510059073C /* FirebaseStorage */,
 				A1AC440929795CD800122C93 /* Kingfisher */,
+				A14B3C50297AE51B007380BA /* IQKeyboardManagerSwift */,
 			);
 			productName = "WhatsApp Clone";
 			productReference = A13B90BE29784A960059073C /* WhatsApp Clone.app */;
@@ -194,6 +220,7 @@
 			packageReferences = (
 				A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				A1AC440829795CD800122C93 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A14B3C4F297AE51B007380BA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = A13B90BF29784A960059073C /* Products */;
 			projectDirPath = "";
@@ -229,12 +256,17 @@
 				A1AC440E2979636E00122C93 /* ContatosViewModel.swift in Sources */,
 				A13B90EC29784E120059073C /* LoginViewModel.swift in Sources */,
 				A13B90C229784A960059073C /* AppDelegate.swift in Sources */,
+				A1AC441A2979855000122C93 /* ChatViewModel.swift in Sources */,
+				A1AC441829797D6800122C93 /* MensagemTableViewCell.swift in Sources */,
 				A1AC44102979655B00122C93 /* MyTableViewCell.swift in Sources */,
 				A13B90EF29784E480059073C /* AlertModel.swift in Sources */,
+				A1974705297AAC9800182597 /* ConversasViewController.swift in Sources */,
 				A1AC440C2979636400122C93 /* ContatosViewController.swift in Sources */,
 				A1AC441429796EE700122C93 /* NovoContatoViewModel.swift in Sources */,
 				A1AC44052979567B00122C93 /* AjustesViewController.swift in Sources */,
 				A13B90C429784A960059073C /* SceneDelegate.swift in Sources */,
+				A1974707297AACB500182597 /* ConversasViewModel.swift in Sources */,
+				A1974703297AAC6A00182597 /* ConversasTableViewCell.swift in Sources */,
 				A13B90E729784D710059073C /* RegisterViewController.swift in Sources */,
 				A1AC44162979752800122C93 /* ChatViewController.swift in Sources */,
 				A1AC44072979569000122C93 /* AjustesViewModel.swift in Sources */,
@@ -463,6 +495,14 @@
 				kind = branch;
 			};
 		};
+		A14B3C4F297AE51B007380BA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		A1AC440829795CD800122C93 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
@@ -493,6 +533,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A13B90DA29784B510059073C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		A14B3C50297AE51B007380BA /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A14B3C4F297AE51B007380BA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 		A1AC440929795CD800122C93 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;

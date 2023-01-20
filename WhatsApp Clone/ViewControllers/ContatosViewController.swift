@@ -96,7 +96,12 @@ class ContatosViewController: UIViewController ,UITableViewDelegate,UITableViewD
     @IBAction func btnNovoContato(_ sender: Any) {
         self.contatosViewModel.router(identifier: "newContact", sender: nil)
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if segue.identifier == "showMensage" {
+            let viewdestination = segue.destination as!  ChatViewController
+            viewdestination.contacInfo = sender as? Dictionary<String, Any>
+        }
+
     }
 }

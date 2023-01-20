@@ -21,8 +21,15 @@ class NovoContatoViewController: UIViewController {
     @IBAction func btnAdd(_ sender: Any) {
         self.novoContatoViewModel.addContact(email: emailText.text!) { AlertModel in
             self.present(AlertModel.makeAlert(), animated:true)
-            self.lblErro.text = AlertModel.mensagem
-            self.lblErro.isHidden = false
+            if AlertModel.titulo == "Fracasso"{
+                self.lblErro.text = AlertModel.mensagem
+                self.lblErro.isHidden = false
+            }else{
+                self.lblErro.isHidden = true
+                AlertModel.returnToControll(controller: self)
+
+            }
+
         }
         
     }

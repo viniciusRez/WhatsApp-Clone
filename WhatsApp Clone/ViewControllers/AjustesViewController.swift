@@ -19,9 +19,13 @@ class AjustesViewController: UIViewController,UIImagePickerControllerDelegate,UI
         self.ajustesViewModel.getImage { info in
             if let url = URL(string: info["urlImage"] as! String) {
                 self.alterImage(url:url)
-                self.lblNome.text = (info["nome"] as! String)
-                self.lblEmail.text = (info["email"] as! String)
+            }else{
+                self.imageView.image = UIImage(named: "padrao")
+
             }
+            self.lblNome.text = (info["nome"] as! String)
+            self.lblEmail.text = (info["email"] as! String)
+
         }
     }
     
